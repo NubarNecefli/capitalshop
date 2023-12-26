@@ -1,0 +1,238 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+}
+header .mycollapse {
+  justify-content: center;
+}
+header .mycollapse ul li {
+  list-style-type: none;
+}
+header .headers {
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  justify-content: center;
+  display: flex;
+}
+header p {
+  color: white;
+}
+
+#style {
+  width: 100%;
+  height: 500px;
+  background-image: url(/assets/img/h1_hero1.jpg);
+}
+#style .col-12 {
+  margin-top: 30px;
+  padding-top: 30px;
+}
+#style .text-minimal {
+  margin-top: 30px;
+  padding-top: 30px;
+}
+#style .text-minimal span {
+  color: #FF2020;
+  font-family: "Clicker Script", #FF2020;
+}
+#style .text-minimal button {
+  width: 130px;
+  height: 40px;
+  background-color: #292621;
+  color: white;
+  border: none;
+}
+
+#items {
+  width: 100%;
+}
+#items .container {
+  margin-top: 30px;
+  padding: 25px;
+}
+
+.photo {
+  width: 250px;
+  margin-top: 30px;
+}
+
+#week .container {
+  margin-top: 30px;
+  padding: 30px;
+}
+#week .navbar {
+  display: flex;
+  margin-top: 30px;
+}
+#week ul {
+  display: flex;
+  gap: 20px;
+}
+#week li {
+  list-style-type: none;
+}
+
+#customer {
+  width: 100%;
+  height: 400px;
+  background-color: #F3EAD8;
+}
+#customer .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  padding: 30px;
+}
+#customer .col-xl-10 {
+  margin-top: 30px;
+  padding: 30px;
+}
+#customer h2 {
+  display: flex;
+  justify-content: center;
+}
+#customer .lower {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  padding: 30px;
+  gap: 20px;
+}
+
+#like {
+  width: 100%;
+}
+#like .like {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  padding: 30px;
+}
+
+#systemproduct {
+  display: flex;
+  flex-wrap: wrap;
+}
+#systemproduct img {
+  width: 250px;
+}
+#systemproduct button {
+  width: 120px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  background-color: orangered;
+}
+#systemproduct button:hover {
+  color: white;
+  background-color: red;
+  transition: 1s;
+}
+
+#viewmore {
+  width: 120px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  background-color: green;
+  margin-top: 30px;
+}
+#viewmore:hover {
+  color: white;
+  background-color: yellowgreen;
+  transition: 1s;
+}
+
+.proBox {
+  margin-top: 30px;
+}
+
+#prokind {
+  width: 140px;
+  height: 35px;
+  color: white;
+  background-color: rgb(51, 112, 153);
+  border: none;
+  border-radius: 17px;
+}
+
+#footer {
+  width: 100%;
+  height: 200px;
+  background-color: #212529;
+  margin-top: 25px;
+}
+#footer .col-xl-12 {
+  margin-top: 30px;
+}
+#footer .colorlib-text {
+  display: flex;
+  margin-top: 30px;
+  padding: 30px;
+  justify-content: center;
+}
+
+#sortedproducts {
+  display: flex;
+  flex-wrap: wrap;
+}
+#sortedproducts img {
+  width: 250px;
+}
+#sortedproducts button {
+  width: 120px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  background-color: orangered;
+}
+#sortedproducts button:hover {
+  color: white;
+  background-color: red;
+  transition: 1s;
+}
+
+#systemproducts {
+  display: flex;
+  margin-left: 46px;
+  flex-wrap: wrap;
+}
+#systemproducts img {
+  width: 250px;
+}
+#systemproducts button {
+  width: 140px;
+  height: 50px;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  background-color: orangered;
+}
+#systemproducts button:hover {
+  color: white;
+  background-color: red;
+  transition: 1s;
+}
+#systemproducts .removepro {
+  margin-top: 25px;
+}
+
+#form {
+  margin-top: 20px;
+  padding: 30px;
+}
+
+#myform {
+  margin-top: 20px;
+  padding: 30px;
+}
